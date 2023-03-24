@@ -50,11 +50,17 @@ h1 {
 }
 
 main {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#sectiontopmain {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 70%;
 }
 
 .texetnoincadre {
@@ -63,62 +69,14 @@ main {
     margin-bottom: 20px;
 }
 
-#artnobackup {
-    background-color: gray;
-    width: 70%;
+#nobackup {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    background-color: gray;
+    width: 70%;
 }
 
-#titreartbackup {
-    font-size: 2.5em;
-    font-family: var(--fonttitre);
-    text-transform: uppercase;
-    display: inline-block;
-    color: orange;
-    margin: 30px;
-}
-
-#nobackupcolor {
-    color: black;
-}
-
-#seclocal {
-    width: 45%;
-    margin-right: 20px;
-}
-
-.titrearticle {
-    text-align: center;
-    font-family: var(--fonttitre);
-    margin: 20px;
-}
-
-.textarticle {
-    font-family: var(--fonttext);
-    margin-bottom: 20px;
-}
-
-#ularticle {
-    font-family: var(--fonttext);
-    padding-left: 35px;
-    margin-bottom: 15px;
-}
-
-#seccloud {
-    width: 45%;
-}
-
-.imgbackup {
-    float: left;
-    width: 200px;
-    border-radius: 15px;
-}
-
-#articledataloss {
-    width: 30%;
+#dataloss {
     background-color: orange;
+    width: 30%;
 }
-
-.tirresection18 {}
