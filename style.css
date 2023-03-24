@@ -77,6 +77,7 @@ main {
     text-transform: uppercase;
     display: inline-block;
     color: orange;
+    margin: 30px;
 }
 
 #nobackupcolor {
@@ -88,12 +89,36 @@ main {
     margin-right: 20px;
 }
 
+.titrearticle {
+    text-align: center;
+    font-family: var(--fonttitre);
+    margin: 20px;
+}
+
+.textarticle {
+    font-family: var(--fonttext);
+    margin-bottom: 20px;
+}
+
+#ularticle {
+    font-family: var(--fonttext);
+    padding-left: 35px;
+    margin-bottom: 15px;
+}
+
 #seccloud {
     width: 45%;
 }
 
 .imgbackup {
     float: left;
-    width: 150px;
+    width: 200px;
     border-radius: 15px;
 }
+
+#articledataloss {
+    width: 30%;
+    background-color: orange;
+}
+
+.tirresection18 {}
