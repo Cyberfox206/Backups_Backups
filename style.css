@@ -74,13 +74,17 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     background-color: gray;
-    width: 50%;
+    margin-right: 30px;
+    width: 60%;
+    margin-bottom: 50px;
 }
 
 #titrenobackup {
     color: orange;
     font-family: var(--fonttitre);
     font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 35px;
 }
 
 #spanfortitrebackup {
@@ -88,17 +92,75 @@ main {
 }
 
 .articleonnobackup {
-    width: 50%;
+    width: 45%;
+    margin: 15px;
 }
 
-#imgnobackup {
+.imgnobackup {
     float: left;
-    width: 200px;
+    width: 170px;
     border-radius: 15px;
 }
 
+.textarticl {
+    font-family: var(--fonttext);
+    margin-bottom: 20px;
+}
+
+.btnreadmore {
+    background-color: black;
+    color: white;
+    font-family: var(--fonttext);
+    border: none;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.titrearticle {
+    text-align: center;
+    margin: 20px;
+    font-family: var(--fonttext);
+    text-transform: uppercase;
+}
 
 #dataloss {
     background-color: orange;
-    width: 30%;
+    width: 25%;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#datalosstitel {
+    font-family: var(--fonttitre);
+    color: black;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+#spandataloss {
+    color: white;
+}
+
+
+.titreartdatalos {
+    font-family: var(--fonttitre);
+    color: black;
+    font-size: 1.7em;
+    margin-bottom: 15px;
+}
+
+
+.dfaceimg {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 15px;
+}
+
+.articleindataloss {
+    margin-bottom: 50px;
+    color: white;
+    font-family: var(--fonttext);
 }
