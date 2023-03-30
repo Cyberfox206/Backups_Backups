@@ -16,7 +16,9 @@ body {
 }
 
 header {
-    background-color: orange;
+    border-top: 10px solid #fecb41;
+    border-bottom: 10px solid #fecb41;
+    background-color: #fecd18;
     width: 100%;
     height: 205px;
     display: flex;
@@ -73,14 +75,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: gray;
+    background-color: #e9e9e9;
     margin-right: 30px;
     width: 60%;
     margin-bottom: 50px;
 }
 
 #titrenobackup {
-    color: orange;
+    color: #fecd18;
     font-family: var(--fonttitre);
     font-size: 2.5em;
     text-transform: uppercase;
@@ -108,7 +110,7 @@ main {
 }
 
 .btnreadmore {
-    background-color: black;
+    background-color: #333333;
     color: white;
     font-family: var(--fonttext);
     border: none;
@@ -125,7 +127,8 @@ main {
 }
 
 #dataloss {
-    background-color: orange;
+    border: 10px #fecb41 solid;
+    background-color: #fecd18;
     width: 25%;
     padding: 50px;
     margin-bottom: 50px;
@@ -163,4 +166,30 @@ main {
     margin-bottom: 50px;
     color: white;
     font-family: var(--fonttext);
+}
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logoeden {
+    margin: 25px;
+    width: 130px;
+}
+
+#textfooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: var(--fonttext);
+}
+
+#spantextfooter {
+    margin: 5px;
 }
